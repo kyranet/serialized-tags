@@ -1,5 +1,5 @@
 {
-  "name": "js-tags",
+  "name": "@kyranet/js-tags",
   "version": "0.0.1",
   "description": "Read plain objects and turn plain strings into fast i18n-ready template strings",
   "main": "src/index",
@@ -13,6 +13,7 @@
     "url": "git@github.com:kyranet/js-tags.git"
   },
   "keywords": [
+    "js-tags",
     "string-tags"
   ],
   "contributors": [
