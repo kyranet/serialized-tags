@@ -1,5 +1,5 @@
 {
-  "name": "@kyranet/js-tags",
+  "name": "serialized-tags",
   "version": "0.0.1",
   "description": "Read plain objects and turn plain strings into fast i18n-ready template strings",
   "main": "src/index",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kyranet/js-tags.git"
+    "url": "git@github.com:kyranet/serialized-tags.git"
   },
   "keywords": [
-    "js-tags",
+    "serialized-tags",
     "string-tags"
   ],
   "contributors": [
@@ -21,11 +21,10 @@
   ],
   "author": "kyranet <kyradiscord@gmail.com>",
   "license": "MIT",
-  "private": false,
   "bugs": {
-    "url": "https://github.com/kyranet/js-tags/issues"
+    "url": "https://github.com/kyranet/serialized-tags/issues"
   },
-  "homepage": "https://github.com/kyranet/js-tags#readme",
+  "homepage": "https://github.com/kyranet/serialized-tags#readme",
   "devDependencies": {
     "@types/tape": "^4.2.33",
     "eslint": "^5.12.1",

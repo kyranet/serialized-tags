@@ -1,23 +1,23 @@
-# js-tags
+# serialized-tags
 
 <div align="center">
   <p>
-    <a href="https://www.npmjs.com/kyranet/js-tags"><img src="https://img.shields.io/npm/v/js-tags.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/kyranet/js-tags"><img src="https://img.shields.io/npm/dt/js-tags.svg?maxAge=3600" alt="NPM downloads" /></a>
-    <a href="https://travis-ci.org/kyranet/js-tags"><img src="https://travis-ci.org/kyranet/js-tags.svg" alt="Build status" /></a>
-	<a href="https://travis-ci.org/kyranet/js-tags"><img src="https://travis-ci.org/kyranet/js-tags.svg?branch=master" alt="Build Status" /></a>
-	<a href="https://lgtm.com/projects/g/kyranet/js-tags/alerts/"><img src="https://img.shields.io/lgtm/alerts/g/kyranet/js-tags.svg?logo=lgtm&logoWidth=18" alt="Total alerts" /></a>
-	<a href="https://dependabot.com"><img src="https://api.dependabot.com/badges/status?host=github&repo=kyranet/js-tags" alt="Dependabot Status" /></a>
+    <a href="https://www.npmjs.com/kyranet/serialized-tags"><img src="https://img.shields.io/npm/v/serialized-tags.svg?maxAge=3600" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/kyranet/serialized-tags"><img src="https://img.shields.io/npm/dt/serialized-tags.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://travis-ci.org/kyranet/serialized-tags"><img src="https://travis-ci.org/kyranet/serialized-tags.svg" alt="Build status" /></a>
+	<a href="https://travis-ci.org/kyranet/serialized-tags"><img src="https://travis-ci.org/kyranet/serialized-tags.svg?branch=master" alt="Build Status" /></a>
+	<a href="https://lgtm.com/projects/g/kyranet/serialized-tags/alerts/"><img src="https://img.shields.io/lgtm/alerts/g/kyranet/serialized-tags.svg?logo=lgtm&logoWidth=18" alt="Total alerts" /></a>
+	<a href="https://dependabot.com"><img src="https://api.dependabot.com/badges/status?host=github&repo=kyranet/serialized-tags" alt="Dependabot Status" /></a>
     <a href="https://www.patreon.com/kyranet"><img src="https://img.shields.io/badge/donate-patreon-F96854.svg" alt="Patreon" /></a>
   </p>
   <p>
-    <a href="https://nodei.co/npm/js-tags/"><img src="https://nodei.co/npm/js-tags.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+    <a href="https://nodei.co/npm/serialized-tags/"><img src="https://nodei.co/npm/serialized-tags.png?downloads=true&stars=true" alt="npm installnfo" /></a>
   </p>
 </div>
 
 ## About
 
-`js-tags` is a fast and lightweight tag template parser for primitive objects and values, it comes with support for
+`serialized-tags` is a fast and lightweight tag template parser for primitive objects and values, it comes with support for
 Arrays, Objects, Strings, and Value, all four being wrapped in classes implementing the same interface, reducing the
 need to check values in your code.
 
@@ -45,6 +45,9 @@ As mentioned before, you can use (parsed) JSON objects for this package, given t
 You would parse this using the following code:
 
 ```javascript
+// Import the package
+const jstags = require('serialized-tags');
+
 // Assume jsonString is a string containing the previous JSON
 // We will parse it into an object so jstags can work with it
 const json = JSON.parse(jsonString);

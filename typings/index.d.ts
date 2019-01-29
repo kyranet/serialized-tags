@@ -1,4 +1,4 @@
-declare module 'js-tags' {
+declare module 'serialized-tags' {
 
 	export class ArrayTag extends Array<JSTag> implements JSTag {
 		public display(): this;
