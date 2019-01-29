@@ -3,5 +3,6 @@ module.exports = {
 	BlockTag: require('./lib/BlockTag'),
 	StringTag: require('./lib/StringTag'),
 	ValueTag: require('./lib/ValueTag'),
-	Util: require('./lib/util/Util')
+	Util: require('./lib/util/Util'),
+	parse: require('./lib/util/Util').parseElement
 };
