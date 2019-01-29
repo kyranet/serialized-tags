@@ -26,11 +26,9 @@
   },
   "homepage": "https://github.com/kyranet/js-tags#readme",
   "devDependencies": {
-    "eslint": "^5.12.1",
-    "eslint-config-klasa": "github:dirigeants/klasa-lint"
-  },
-  "dependencies": {
     "@types/tape": "^4.2.33",
+    "eslint": "^5.12.1",
+    "eslint-config-klasa": "github:dirigeants/klasa-lint",
     "tape": "^4.9.2"
   }
 }
