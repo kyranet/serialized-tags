@@ -17,7 +17,9 @@ docs/
 .gitattributes
 .github/
 .gitignore
+.travis-deploy.sh
 .travis.yml
 test/
 tsconfig.json
 tslint.json
+webpack.config.js
