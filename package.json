@@ -5,6 +5,7 @@
   "main": "src/index",
   "types": "typings/index.d.ts",
   "scripts": {
+    "build:browser": "npx webpack",
     "lint": "npx eslint --fix src",
     "test": "npx eslint src && node test/suite.js"
   },
