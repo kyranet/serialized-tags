@@ -1,6 +1,6 @@
 {
   "name": "serialized-tags",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Read plain objects and turn plain strings into fast i18n-ready template strings",
   "main": "src/index",
   "types": "typings/index.d.ts",
@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git@github.com:kyranet/serialized-tags.git"
   },
+  "unpkg": "./webpack/serialized-tags.min.js",
   "keywords": [
     "serialized-tags",
     "string-tags"
