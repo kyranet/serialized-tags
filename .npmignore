@@ -18,4 +18,6 @@ docs/
 .github/
 .gitignore
 .travis.yml
+test/
+tsconfig.json
 tslint.json
