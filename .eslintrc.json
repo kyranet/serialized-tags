@@ -1,0 +1,11 @@
+{
+	"extends": "klasa",
+	"rules": {
+		"arrow-parens": ["error", "always"],
+		"curly": ["error", "multi-or-nest", "consistent"],
+		"id-length": "off",
+		"no-bitwise": ["error", { "int32Hint": true }],
+		"no-cond-assign": "off",
+		"operator-linebreak": ["error", "before", { "overrides": { "+": "after" } }]
+	}
+}
