@@ -46,14 +46,14 @@ You would parse this using the following code:
 
 ```javascript
 // Import the package
-const jstags = require('serialized-tags');
+const serializedTags = require('serialized-tags');
 
 // Assume jsonString is a string containing the previous JSON
-// We will parse it into an object so jstags can work with it
+// We will parse it into an object so serializedTags can work with it
 const json = JSON.parse(jsonString);
 
-// Parse with jstags
-const parsed = new jstags.parse(json);
+// Parse with serializedTags
+const parsed = new serializedTags.parse(json);
 ```
 
 And now, we save it somewhere! Let's use `parsed` now!
