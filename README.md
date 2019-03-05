@@ -53,7 +53,7 @@ const serializedTags = require('serialized-tags');
 const json = JSON.parse(jsonString);
 
 // Parse with serializedTags
-const parsed = new serializedTags.parse(json);
+const parsed = serializedTags.parse(json);
 ```
 
 And now, we save it somewhere! Let's use `parsed` now!
