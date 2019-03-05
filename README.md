@@ -24,7 +24,7 @@ need to check values in your code.
 The nature of this parser is to allow developers to use language files in the format of their convenience (JSON, YAML...)
 and pass the output through this to parse the strings and prepare everything for later usage.
 
-In a near future, this package will have a branch for webpack to allow developers use this on their web applications!
+This package features a branch for webpack builds for web applications!
 
 ## Usage
 
